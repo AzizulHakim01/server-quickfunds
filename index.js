@@ -110,6 +110,10 @@ async function generatePDF(formData) {
       <td style="color: rgb(82, 82, 91); text-align: left;">${formData.business_email}</td>
     </tr>
     <tr>
+      <th style="color: #00d1a9; text-align: left; padding-right: 20px;">Business Number:</th>
+      <td style="color: rgb(82, 82, 91); text-align: left;">${formData.business_number}</td>
+    </tr>
+    <tr>
       <th style="color: #00d1a9; text-align: left; padding-right: 20px;">Funding amount Required:</th>
       <td style="color: rgb(82, 82, 91); text-align: left;">${formData.amount_asking}</td>
     </tr>
